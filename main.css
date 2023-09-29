@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top:140px;
+}
+.button-container {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left:500px;
+    box-shadow:  lightgreen 10px 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+    height: 20em;
+   width:30em;
+  
+}
+
+.button {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+
+ margin-top: 10px;
+ 
+}
+
+#button1 {
+    border: 1px solid rgb(11, 148, 30);
+padding: 20px;
+margin:30px;
+box-shadow: 7px 3px 2px 3px;
+border-radius: 10px;
+text-decoration: none;
+color:#222;
+}
+
+#button2 {
+    border: 2px solid rgb(11, 148, 30);
+    margin:30px;
+padding:20px;
+box-shadow: 7px 3px 2px 3px;
+border-radius: 10px;
+text-decoration: none;
+color:#222;
+}
+
+#button3 {
+    border: 2px solid rgb(11, 148, 30);
+    margin:30px;
+padding: 20px;
+box-shadow:  7px 3px 2px 3px;
+border-radius: 10px;
+text-decoration: none;
+color:#222;
+}
+
+#button4 {
+    border: 2px solid rgb(11, 148, 30);
+    margin: 30px;
+padding:20px;
+box-shadow: 7px 3px 2px 3px;
+border-radius: 10px;
+text-decoration: none;
+color:#222;
+}
+
+#button1:hover {
+opacity: 1;
+background: lightgreen;
+}
+
+#button2:hover {
+    opacity: 1;
+    background: lightgoldenrodyellow;
+    }
+
+    #button3:hover {
+        opacity: 1;
+        background: lightblue;
+        }
+
+        #button4:hover {
+            opacity: 1;
+            background: lightgray;
+            }
+
+    @media only screen and (max-width: 768px)  {
+     .button-container {
+        margin-top: 19px;
+margin-left: 10px;
+font-size: 20px;
+transition: 0.4s;
+height: 14em;
+width: 17em;
+     } 
+     h1 {
+        margin-top: 12px;
+     } 
+     
+   
+    }  
+    
+  
